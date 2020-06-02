@@ -1,4 +1,4 @@
-# The Shape ⚛️
+# The Logo ⚛️
 
 **What's included:**
 
