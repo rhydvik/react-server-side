@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.menuContainer {
+  text-align: right;
+}
+
+.buttons {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-right: 15px;
+}

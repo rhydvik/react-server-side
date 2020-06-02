@@ -1,0 +1,28 @@
+.container {
+  background: #fff !important;
+  height: 90px;
+  padding-top: 1rem;
+  padding-left: 16px;
+}
+
+.buttonContainer {
+  display: flex;
+  float: right;
+  font-size: 1.5rem;
+  align-self: end;
+  height: 100%;
+  width: 4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 15rem;
+  margin-left: 5rem;
+}
+
+.menuIcon {
+  cursor: pointer;
+  font-size: 1.75rem;
+  padding-left: 1rem;
+}

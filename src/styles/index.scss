@@ -1,0 +1,43 @@
+@import "~antd/dist/antd.compact.css";
+
+@import './colors';
+@import './base';
+
+
+body {
+  background: white;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.primaryBg {
+  background: #2b3642;
+}
+
+.bigText {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.smallText {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.whiteBg {
+  background: white;
+}
