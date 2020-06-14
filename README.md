@@ -2,12 +2,14 @@
 
 # Motivation
 
-These days we need to develop all kind of applications, some of them are pure client side where
-side application where browser receives a bundled file and compiles it to creates beautiful UI
-and some of them are pure server side where all pages are generated on server because of that
-whenever we go to another page there is a lag. Reason of choosing server side because it
-is good for SEO, but we don't need SEO for all the pages(like dashboard, settings). So we needed an configuration/way
-to do SEO for some pages and bundle all other pages that doesn't need SEO and send it to browser  
+These days we need to develop all kind of applications, some of them are pure 
+client-side where side application where a browser receives a bundled file and 
+compiles it to creates beautiful UI and some of them are pure server-side where 
+all pages are generated on the server because of that whenever we go to another 
+page there is a lag. Reason for choosing the server-side because it is good for 
+SEO, but we don't need SEO for all the pages(like dashboard, settings). 
+So we needed a configuration/way to do SEO for some pages and bundle all other 
+pages that don't need SEO and send it to browser
 to create beautiful UI. This boilerplate fulfils that need.
 
 
@@ -70,12 +72,12 @@ This application has all the basic components with proper navigation. You might 
 
 # Routing Configuration
 
-All routes are a Higher Order Component which is created using matchProps property to Route 
-provided by react-router-dom
+All routes are a Higher Order Component which is created using matchProps 
+property to Route provided by react-router-dom 
 
-Type of component that we provide to Route HOC differs, if there is a need ot code spitting 
-and you want to generate your page on server use react-loadable for that. Webpack will load
-those components separately.
+Type of component that we provide to Route HOC differs if there is a need 
+to code spitting and you want to generate your page on server use react-loadable 
+for that. Webpack will load those components separately.
 
 ```js
 const LoadableHome = Loadable({
