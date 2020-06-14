@@ -1,5 +1,10 @@
 # The Logo ⚛️
 
+#Overview
+This application has all the basic components with proper navigation. You might need to 
+customize UI according to your design but this give structure and approach can be followed. 
+![](web-record.gif)
+
 **What's included:**
 
 - Server-side rendering with code splitting (via the excellent [React Loadable](https://github.com/thejameskyle/react-loadable) package)
